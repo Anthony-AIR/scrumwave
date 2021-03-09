@@ -81,8 +81,7 @@ body{
 
     <h3>Voer hier de naam van je scrum bord in: </h3>
     <form name="create" method="post" action="<?php echo URL ?>Home/required"><br>
-    <p style="color:red;"><?php echo $nameErr?></p><br>
-        <input style="width: 300px; height: 40px;" class="text-center" type="text" name="Name" placeholder="Project naam" value="<?php echo $Name?>"></input><br>
+        <input style="width: 300px; height: 40px;" class="text-center" type="text" name="Name" placeholder="Project naam"></input><br>
     </form><br><br>
     
 <table id="tabel" style="width:700px;">

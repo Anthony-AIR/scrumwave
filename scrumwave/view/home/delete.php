@@ -5,7 +5,7 @@
 </style>
 
 <div class="alert alert-dark text-center" role="alert">
-    <strong>Delete</strong>&nbsp; &nbsp;Weet je zeker dat je project: <?php echo $name["Name"]?>wilt verwijderen?
+    <strong>Delete</strong>&nbsp; &nbsp;Weet je zeker dat je dit project wilt verwijderen?
 
 </div>
 <form class="text-center"action="<?php echo URL ?>home/destroy/<?php echo $id ?>">
