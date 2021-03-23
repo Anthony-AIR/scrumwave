@@ -24,7 +24,7 @@ function save(){
 	render2("projects/index", array( 'projects' => getAllProjects(), 'tasks' => getAllTasks(), 'users' => getAllUsers(), 'noneUsers' => getAllNoneUsers(), 'CountDone' => countDone($_POST["projectId"]) ));
 }
 
-function IngevuldeTask($id){
+function IngevuldeTask(){
 	createTaskInfo($_POST, $_POST["taskId"]);
 	index();
 }
